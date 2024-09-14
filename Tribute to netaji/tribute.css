@@ -1,0 +1,68 @@
+.container {
+  background: #500458;
+  color: rgba(255, 255, 255, 0.705);
+  font-family: "Trebuchet MS", sans-serif;
+  border-radius: 20px;
+}
+
+.Main {
+  padding: 10%;
+  margin: 0px 50px 0px 50px;
+}
+
+img {
+  border-radius: 100%;
+}
+
+.header {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-area: span;
+}
+
+.P {
+  font-size: 70px;
+
+  grid-column-start: 2;
+  grid-column-end: 4;
+
+  align-content: center;
+  text-align: center;
+}
+
+.Q {
+  font-size: 60px;
+
+  grid-row-start: 2;
+  grid-row-end: 3;
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+
+.R {
+  font-size: x-large;
+  text-align: justify;
+}
+
+.S {
+  text-align: end;
+  font-size: x-large;
+}
+a{
+    color: bisque;
+}
+a:hover{
+    
+    text-decoration:none;
+   
+    color: rgb(250, 77, 77);
+}
+@media (max-width: 1450) {
+
+    .P{
+       
+        grid-row-start: 2;
+        grid-row-end: 3;
+    }
+    /* styles for screens with width >= 768px */
+  }
